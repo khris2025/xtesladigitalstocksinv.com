@@ -308,21 +308,24 @@
       <!-- dashboard init -->
       <script src="{{asset('assets/js/pages/dashboard.init.js')}} "></script>
       <script src="{{asset('assets/js/app.js')}} "></script>  
-      <!-- Smartsupp Live Chat script -->
-      <script type="text/javascript">
-      var _smartsupp = _smartsupp || {};
-      _smartsupp.key = 'aaec97bbd6663122fc9bf20a520be6351c2c27dc';
-      window.smartsupp||(function(d) {
-      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-      c.type='text/javascript';c.charset='utf-8';c.async=true;
-      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-      })(document);
-      </script>
-      <noscript>Powered by <a href="https://www.smartsupp.com" target="_blank">Smartsupp</a></noscript>
-
-
       
+
+         <!-- Smartsupp Live Chat script -->
+   <script type="text/javascript">
+      var _smartsupp = _smartsupp || {};
+      _smartsupp.key = '1d0c7ecad49a4cba5a89dd5b165ff08071fbea62';
+      window.smartsupp || (function (d) {
+         var s, c, o = smartsupp = function () { o._.push(arguments) }; o._ = [];
+         s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
+         c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
+         c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
+      })(document);
+   </script>
+   <noscript>Powered by <a href="https://www.smartsupp.com" target="_blank">Smartsupp</a></noscript>
+   
+
+
+
 
 
    </body>

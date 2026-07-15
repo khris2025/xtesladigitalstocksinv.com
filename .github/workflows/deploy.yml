@@ -17,4 +17,3 @@ jobs:
           server: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.MAIN_FTP_PASSWORD }}
-          dangerous-clean-slate: true
